@@ -1,0 +1,13 @@
+body {
+    max-width: 1440px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+header {
+    background-color: #FFF8F3;
+}
+
+#header-part-1 {
+    padding: 20px;
+}
