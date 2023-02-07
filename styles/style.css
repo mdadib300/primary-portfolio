@@ -11,4 +11,26 @@ header {
 
 #header-part-1 {
     padding: 20px;
+    width: 200px;
+}
+
+#header-part-2 {
+    padding: 20px;
+    width: 1240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 120px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
 }
