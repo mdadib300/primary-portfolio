@@ -6,6 +6,7 @@ body {
 
 header {
     background-color: #FFF8F3;
+    display: flex;
 }
 
 #header-part-1 {
