@@ -10,13 +10,15 @@ header {
 }
 
 #header-part-1 {
-    padding: 20px;
-    width: 200px;
+    width: 150px;
+}
+
+#developer-text-img {
+    margin: 25px;
 }
 
 #header-part-2 {
-    padding: 20px;
-    width: 1240px;
+    width: 1290px;
 }
 
 nav {
@@ -30,8 +32,21 @@ nav {
     align-items: center;
 }
 
+#banner {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
 #banner-buttons {
     margin-top: 60px;
+}
+
+#banner-image {
+    width: 550px;
+    height: 640px;
 }
 
 h2 {
