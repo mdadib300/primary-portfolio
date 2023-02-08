@@ -34,18 +34,44 @@ nav {
 
 #banner {
     display: flex;
-    align-items: center;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
 
+#banner-text {
+    margin-top: 80px;
+}
+
 #banner-buttons {
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 #banner-image {
     padding-right: 40px;
+}
+
+#about {
+    padding: 150px;
+    margin: 130px 230px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+
+#about-info-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 20px;
 }
 
 h2 {
