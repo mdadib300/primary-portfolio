@@ -64,6 +64,24 @@ nav {
     justify-content: space-around;
 }
 
+#what-i-do {
+    margin: 130px 230px;
+}
+
+#skill-set {
+    margin-top: 30px;
+    display: flex;
+}
+
+.skill-card {
+    width: 220px;
+    height: 320px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    margin-right: 20px;
+}
+
 .text-center {
     text-align: center;
 }
