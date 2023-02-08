@@ -77,9 +77,23 @@ nav {
     width: 220px;
     height: 320px;
     padding: 30px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: left;
     margin-right: 20px;
+}
+
+#summary-div {
+    display: flex;
+    justify-content: center;
+}
+
+.summary-part {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.education-div {
+    margin-bottom: 20px;
 }
 
 .text-center {
@@ -101,6 +115,26 @@ h3 {
     font-weight: 600;
     font-size: 45px;
     color: #474747;
+}
+
+h4 {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+h6 {
+    color: #474747;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
 }
 
 a {
